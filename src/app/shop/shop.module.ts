@@ -3,6 +3,7 @@ import { ModelModule } from '../model/model.module';
 import { ShopComponent } from './shop.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
     imports: [
@@ -12,7 +13,8 @@ import { FormsModule } from '@angular/forms';
     ],
     providers: [],
     declarations: [
-        ShopComponent
+        ShopComponent,
+        NavbarComponent
     ],
     exports: [ShopComponent]
 })
